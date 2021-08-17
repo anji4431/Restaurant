@@ -1,0 +1,3 @@
+﻿"Merchant Reference Id","CashFree Reference Id","Customer Name","Customer Phone","Customer Email",Currency,"Transaction Amount","Transaction Type","Payment Mode","Bank Name","Transaction Time","Service Charge",ST/GST,Currency,"Net Settlement Amount","Settlement Date","UTR No.","Auth ID","Card Type (Scheme)"
+HRGR00002-2107060001,454831706,"Dear Customer",8510808187,hawkers.nearme@gmail.com,INR,1.00,Purchase,UPI,android_gpay_link,"2021-07-06 11:30:34",0.02,0.00,INR,0.98,2021-07-08,N189210658256250,,
+HRGR00006-2107060001,455036613,"Dear Customer",7008081807,hawkers.nearme@gmail.com,INR,1.00,Purchase,UPI,android_gpay_link,"2021-07-06 15:44:01",0.02,0.00,INR,0.98,2021-07-08,N189210658256250,,
