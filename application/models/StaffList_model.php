@@ -5,7 +5,7 @@ class StaffList_model extends CI_Model
 	
 	var $table ='tbl_restaurant_staff_registration AS rsr ';
     var $column_order = array('','rsr.name','','','rsr.permanent_address','s.name','rsr.create_date','',''); 
-    var $column_search =  array('rsr.id','rsr.name','rsr.email','rsr.mobile_no','rsr.aadhar_no','rsr.pan_number','rsr.permanent_address','rsr.user_type','rsr.create_date','rsr.status');
+    var $column_search =  array('rsr.id','rsr.name','rsr.email','rsr.mobile_no','rsr.aadhar_no','rsr.pan_number','rsr.permanent_address','rsr.user_type','rsr.create_date','rsr.status','s.name');
     var $order = array('rsr.id' => 'desc');
 	public function __construct() 
     {
@@ -67,7 +67,7 @@ class StaffList_model extends CI_Model
         if($_POST['length'] != -1)
         $this->db->limit($_POST['length'], $_POST['start']);
         $query = $this->db->get();
-        // print_r($this->db->last_query());exit;
+         print_r($this->db->last_query());exit;
         return $query->result();
     }
     public function count_all()
